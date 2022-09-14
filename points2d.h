@@ -145,7 +145,6 @@ namespace teaching_project {
                 out << "()";
             }
 
-            out << std::endl;
             return out;
         }
 
