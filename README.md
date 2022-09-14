@@ -1,1 +1,1 @@
-# CS335
+# For CS335 projects
