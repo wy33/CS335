@@ -7,11 +7,15 @@ This repository contains the following:
 
 ## Parts of program completed
 
-All parts (functions) completed
+All parts (functions of class Points2D) completed
 
 ## Bugs encountered
 
-No bugs encountered for finished program
+I'm not certain if it is a bug, but gradescope Test2b failed and Test3 partially failed.
+I think it may be an error handling problem for the overloaded operator[].
+`Fall22-Assignment1.pdf` specified to use abort() function for all errors after printing "ERROR" in the cerr stream
+Linux lab computers successfully prints "ERROR" and so does my windows computer, but gradescope doesn't print "ERROR".
+Whatever the case, the program stops as intended for Test2b and Test3.
 
 ## Input file
 
