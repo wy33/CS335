@@ -153,7 +153,7 @@ namespace teaching_project {
         friend std::istream& operator>>(std::istream& in, Points2D& some_points) {
             size_t number_of_points;
             in >> number_of_points;
-            if (in.fail()) {
+            if (in.fail() || in.eof()) {
                 std::cerr << "ERROR" << std::endl;
                 abort();
             }
@@ -165,7 +165,7 @@ namespace teaching_project {
                 some_points.sequence_ = new std::array<Object, 2>[number_of_points];
                 for (size_t i = 0; i < number_of_points; i++) {
                     in >> some_points.sequence_[i][0] >> some_points.sequence_[i][1];
-                    if (in.fail()) {
+                    if (in.fail() || in.eof()) {
                         std::cerr << "ERROR" << std::endl;
                         abort();
                     }
@@ -182,7 +182,7 @@ namespace teaching_project {
                 }
                 for (size_t i = some_points.size_; i < newSize; i++) {
                     in >> newSequence[i][0] >> newSequence[i][1];
-                    if (in.fail()) {
+                    if (in.fail() || in.eof()) {
                         std::cerr << "ERROR" << std::endl;
                         abort();
                     }
