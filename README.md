@@ -13,7 +13,7 @@ All parts (functions of class Points2D) completed
 
 I'm not certain if it is a bug, but gradescope Test2b failed and Test3 partially failed.
 I think it may be an error handling problem for the overloaded operator[].
-`Fall22-Assignment1.pdf` specified to use abort() function for all errors after printing "ERROR" in the cerr stream
+`Fall22-Assignment1.pdf` specified to use abort() function for all errors after printing "ERROR" in the cerr stream.
 Linux lab computers successfully prints "ERROR" and so does my windows computer, but gradescope doesn't print "ERROR".
 Whatever the case, the program stops as intended for Test2b and Test3.
 
