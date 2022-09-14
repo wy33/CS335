@@ -20,11 +20,11 @@ namespace teaching_project {
     public:
         // Zero-parameter constructor.
         // Set size to 0.
-        Points2D() : sequence_(nullptr), size_(0) {
+        Points2D() : size_(0) {
         }
 
         // Copy-constructor.
-        Points2D(const Points2D& rhs) : size_(rhs.size_), sequence_(nullptr) {
+        Points2D(const Points2D& rhs) : size_(rhs.size_) {
             if(size_ != 0) {
                 sequence_ = new std::array<Object, 2>[size_];
                 for (size_t i = 0; i < size_; i++) {
@@ -64,8 +64,7 @@ namespace teaching_project {
         // End of big-five.
 
         // One parameter constructor.
-        Points2D(const std::array<Object, 2>& item) {
-            size_ = 1;
+        Points2D(const std::array<Object, 2>& item) : size_(1) {
             sequence_ = new std::array<Object, 2>[size_];
             sequence_[0][0] = item[0];
             sequence_[0][1] = item[1];
