@@ -19,11 +19,11 @@ Whatever the case, the program stops as intended for Test2b and Test3.
 
 ## Input file
 
-test_input_file.txt
+`test_input_file.txt`
 
 ## Output file
 
-expected_output.txt
+`expected_output.txt`
 
 ## Running the assignment
 
