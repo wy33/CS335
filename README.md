@@ -3,13 +3,27 @@
 ## Information about the repository
 
 This repository contains the following:
-- Starter code: `points2d.h`, `test_points2d.cc`,`test_input_file.txt`, `expected_output.txt`, `Makefile` and `README.md`
-- Assignment specification: `Fall22-Assignment1.pdf`
-- Testing Document: `Testing_Document.pdf`
+- `points2d.h`
+
+## Parts of program completed
+
+All parts (functions) completed
+
+## Bugs encountered
+
+No bugs encountered for finished program
+
+## Input file
+
+test_input_file.txt
+
+## Output file
+
+expected_output.txt
 
 ## Running the assignment
 
-You will use this exact `Makefile` for your Assignment 1. Failure to do so will result in *deduction* of points.
+Use provided `Makefile`
 
 To compile on terminal, type:
 
