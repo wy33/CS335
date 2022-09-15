@@ -7,7 +7,11 @@ This repository contains the following:
 
 ## Parts of program completed
 
-All parts (functions of class Points2D) completed
+All parts (functions of class Points2D) completed.
+- Default constructor: set member variable size_ to 0.
+- Copy constructor: copy size_ variable from the given object and uses a for loop to copy all elements to a newly allocated array for sequence_ member variable.
+- Copy assignment: utilizes copy constructor to create an exact copy of supplied object parameter and uses std::swap to swap the current object being created with the copied object.
+- 
 
 ## Bugs encountered
 
