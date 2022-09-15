@@ -64,6 +64,7 @@ namespace teaching_project {
         // End of big-five.
 
         // One parameter constructor.
+        // @item: an array of size 2 representing a 2D point.
         Points2D(const std::array<Object, 2>& item) : size_(1) {
             sequence_ = new std::array<Object, 2>[size_];
             sequence_[0][0] = item[0];
