@@ -10,7 +10,7 @@ This repository contains the following:
 All parts (functions of class Points2D) completed.
 - Default constructor: set member variable size_ to 0.
 - Copy constructor: copy size_ variable from the given object and uses a for loop to copy all elements to a newly allocated array for sequence_ member variable.
-- Copy assignment: utilizes copy constructor to create an exact copy of supplied object parameter and uses std::swap to swap the current object being created with the copied object.
+- Copy assignment: utilizes copy constructor to create an exact copy of supplied object parameter and uses std::swap to swap the current object being created with the copied object. Returns the cloned object. Code supplied by initial points2d file in the comments.
 - Move constructor: shallow copies supplied temporary object parameter and sets supplied object to default version of Points2D.
 - Move assignment: transfers temporary supplied object parameter to left side of = operator.
 - Destructor: deallocates sequence_ using delete[] and sets it to nullptr if size_ member variable is not 0.
